@@ -114,6 +114,7 @@ Hình 4.1.1.5
 #### 4.1.3 Mạch tạo xung nhịp 8284 và mạch điều khiển bus 8288
 
 ![Maximum-Mode-8086-System](Maximum-Mode-8086-System.png)
+<br/>
 Hình 4.1.3.1
 
 > - Do trong một hệ vi xử lý có nhiều cách mạch phụ trợ khác nhau, người ta cần xử dụng mạch tạo xung nhịp 8284 để đồng bộ xung clock cho tất cả các mạch trong hệ vi xử lý. Thêm vào đó nó còn có chức năng đồng bộ tín hiệu READY, RESET cho 8086
@@ -125,7 +126,9 @@ Hình 4.1.3.1
   <br/>
 
   - Theo chiều kim đồng hồ từ góc trên cùng bên trái:
+    <br/>
     ![0.45-1.5-2.4](0.45-1.5-2.4.jpg)
+    <br/>
     Hình 4.1.4.1
     - Từ 1.5V -> 2.4V
     - Từ 2.4V -> 1.5V
@@ -133,7 +136,9 @@ Hình 4.1.3.1
     - Từ 0.45V -> 1.5V
       <br/>
   - Theo chiều kim đồng hồ từ góc trên cùng bên trái:
+    <br/>
     ![kihieubus](kihieubus.jpg)
+    <br/>
     Hình 4.1.4.2
     - Kí hiệu dành cho nhóm chân tín hiệu từ S0 - S1 - S2
     - Tín hiệu dồn kênh
