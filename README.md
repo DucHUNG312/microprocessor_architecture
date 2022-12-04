@@ -90,7 +90,6 @@
 - **Các vi mạch phân kênh và đệm:**
 
   - **74LS373**: phân kênh
-    
     <br/>
     ![74373](74373.jpg)
     <br/>
