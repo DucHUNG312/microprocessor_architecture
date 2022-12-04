@@ -84,8 +84,6 @@
 
 #### 4.1.2 Phân kênh và đệm cho các bus
 
-<br/>
-
 - **Vì sao cần phân kênh và khuếch đại đệm?**
   - Do các bus địa chỉ và dữ liệu dùng chung chân cho nên chúng ta cần phân kênh để tách các địa chỉ và dữ liệu về đúng bus của chúng.
   - Do bản thân linh kiện có nội trở dẫn đến suy hao trong quá trình truyền tín hiệu, điện áp đầu vào không đúng với tiêu chuẩn khiến tín hiệu chân khác trên các chân có khả năng bị sai cho nên chúng ta cần khuyếch đại đệm (Buffer).
