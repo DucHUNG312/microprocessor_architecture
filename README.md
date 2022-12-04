@@ -53,8 +53,8 @@
 - **Nhóm chân tín hiệu điều khiển CPU:**
   <br/>
   > - Chân **NMI** và chân **INTR**:
-  >   - NMI: Ngắn cứng không che được
-  >   - INTR: Ngắn cứng che được
+  >   - NMI: Ngắt cứng không che được
+  >   - INTR: Ngắt cứng che được
   > - Chân **RESET**: Khởi động tại CPU
   > - Chân **MN/MX**: Chế độ MIN, MAX. Khi ở chế độ MAX, các chân M/IO, DT/R, DEN, WR sẽ có tên lần lượt là S2, S1, S0, LOCK. Ba chân S2, S1, S0 được dùng để điều khiển hệ thống bus:
   >   - Ghép nối với điều khiển bus 8288
