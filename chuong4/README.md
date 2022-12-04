@@ -111,14 +111,12 @@ Hình 4.1.1.1
 
 - **Sơ đồ**
 
-<br/>
 ![8086and74373-244-245](8086and74373-244-245.jpg)
 <br/>
 Hình 4.1.1.5
 
 #### 4.1.3 Mạch tạo xung nhịp 8284 và mạch điều khiển bus 8288
 
-<br/>
 ![Maximum-Mode-8086-System](Maximum-Mode-8086-System.png)
 <br/>
 Hình 4.1.3.1
