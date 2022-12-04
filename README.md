@@ -19,6 +19,7 @@
 <br/>
 
 ![Pin diagram 8086](chantinhieu8086.jpg)
+<br/>
 Hình 4.1.1.1
 
 - **Nhóm chân tín hiệu dồn kênh (AD0-AD15)**: Các chân này vừa mang tín hiệu địa chỉ vừa mang tín hiệu dữ liệu. Chân ALE sẽ quyết định khi nào các chân này sẽ mang tín hiệu địa chỉ hoặc mang tín hiệu dữ liệu (Xem "Nhóm chân tín hiệu điều khiển bus")
@@ -98,21 +99,26 @@ Hình 4.1.1.1
     <br/>
     Hình 4.1.1.2
   - **74LS245**: đệm dữ liệu 2 chiều
+    <br/>
     ![74245](74245.jpg)
+    <br/>
     Hình 4.1.1.3
-    <br/>
   - **74LS244**: đệm 3 trạng thái theo 1 chiều
-    ![74244](74244.jpg)
-    Hình 4.1.1.4
     <br/>
+    ![74244](74244.jpg)
+    <br/>
+    Hình 4.1.1.4
 
 - **Sơ đồ**
 
+<br/>
 ![8086and74373-244-245](8086and74373-244-245.jpg)
+<br/>
 Hình 4.1.1.5
 
 #### 4.1.3 Mạch tạo xung nhịp 8284 và mạch điều khiển bus 8288
 
+<br/>
 ![Maximum-Mode-8086-System](Maximum-Mode-8086-System.png)
 <br/>
 Hình 4.1.3.1
@@ -201,7 +207,9 @@ Hình 4.1.3.1
     - 8088 => như ta đã biết 8088 có 20 đường địa chỉ A19-A0
     - Ta cần chọn vùng nhớ 2K của EPROM trong 1M của 8088 => quy ước chọn vùng nhớ trên cùng dành cho ROM => chọn FF800H-FFFFFH (chứa đoạn khởi động FFFF0H-FFFFFH)
   - Thực hiện ghép nối:
+    <br/>
     ![ghepnoi8088](ghepnoi8088.jpg)
+    <br/>
     Hình 4.2.2.1
     - chân OE của 2716 sẽ nhận tín hiệu vào từ chân RD của 8088
     - các chân A0-A10 của 2716 sẽ nhận tín hiệu vào từ các bus địa chỉ A0-A10 của 8088
@@ -218,13 +226,19 @@ Hình 4.1.3.1
     - Địa chỉ bắt đầu là F0000H => địa chỉ kết thúc FFFFFH
     - Cần ghép 8 EPROM 2764 vì 64K = 8K \* 8
     - Xác định các vùng địa chỉ của 8 con chip:
+      <br/>
       ![phantichvidu2](phantichvidu2.jpg)
+      <br/>
       Hình 4.2.2.2
     - Cần giải mã vùng địa chỉ của 8 con chip? => Dùng mạch phụ trợ 74LS138 (Sử dụng đặc điểm của 74LS138 là đối với mỗi bộ giá trị ABC của 74LS138 chỉ có 1 đầu ra tích cực ở mức thấp hay bằng 0)
+      <br/>
       ![bogiaima74138](bogiaima74138.jpg)
+      <br/>
       Hình 4.2.2.3
   - Thực hiện ghép nối:
+    <br/>
     ![ghep8088voi2764](ghep8088voi2764.jpg)
+    <br/>
     Hình 4.2.2.4
     - chân OE của 2764 sẽ nhận tín hiệu vào từ chân RD của 8088
     - các chân A0-A12 của 2764 sẽ nhận tín hiệu vào từ các bus địa chỉ A0-A12 của 8088
