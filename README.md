@@ -93,7 +93,7 @@ Hình 4.1.1.1
 - **Các vi mạch phân kênh và đệm:**
 
   - **74LS373**: phân kênh
-  - <br/>
+    <br/>
     ![74373](74373.jpg)
     Hình 4.1.1.2
     <br/>
