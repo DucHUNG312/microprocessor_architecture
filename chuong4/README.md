@@ -197,7 +197,7 @@ Hình 4.1.3.1
 
 #### 4.2.2 Giải mã địa chỉ cho bộ nhớ
 
-###### a) Giải mã địa chỉ cho bộ nhớ bằng cổng NAND
+#### a) Giải mã địa chỉ cho bộ nhớ bằng cổng NAND
 
 - **Ví dụ:** Ghép EPROM 2716 (2K \* 8) với 8088
   - Phân tích:
@@ -215,7 +215,7 @@ Hình 4.1.3.1
     - các chân từ A19-A11 của 8088 bằng 1 cho nên chúng ta sử dụng cổng NAND cho vào chân CS của 2716 để làm nhiệm vụ chọn chip
     - Trong trường hợp này, 8088 đang trao đổi dữ liệu với bộ nhớ => cổng IO/M của 8088 bằng 0 => IO/M cần thông qua 1 cổng đảo để có mức logic bằng 1 => Tất cả mức logic bằng 1 nên sau khi thông qua cổng NAND, chúng ta có mức logic bằng 0 được đưa vào CS => Với CS bằng 0 thì 2716 sẽ được chọn để làm việc. (I wonder how, I wonder why)
 
-###### b) Giải mã địa chỉ cho bộ nhớ dùng bộ giải mã
+#### b) Giải mã địa chỉ cho bộ nhớ dùng bộ giải mã
 
 - **Ví dụ:** Dùng EPROM 2764 (8K \* 8) để ghép thành bộ nhớ 64K cho 8088 bắt đầu từ địa chỉ F0000H
   - Phân tích:
