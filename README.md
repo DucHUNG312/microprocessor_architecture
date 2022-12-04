@@ -142,9 +142,10 @@ Hình 4.1.3.1
       <br/>
 
 - **Biểu đồ thời gian trong 8086**:
-  ![hinh-gian-do-doc-ghi-mp-2776853](hinh-gian-do-doc-ghi-mp-2776853.png)
-  Hình 4.1.4.3
   <br/>
+  ![hinh-gian-do-doc-ghi-mp-2776853](hinh-gian-do-doc-ghi-mp-2776853.png)
+  <br/>
+  Hình 4.1.4.3
 
   > - **Chu kì đọc**:
   >   - Tại chu kì T1, khi ALE từ mức thấp lên mức cao, các chân AD0-AD15 sẽ mang tín hiệu địa chỉ, A16/S3 - A19/S6 và BHE/S7 cũng sẽ mang tín hiệu địa chỉ.
