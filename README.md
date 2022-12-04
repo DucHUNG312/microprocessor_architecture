@@ -14,7 +14,7 @@
 
 <br/>
 
-#### 4.1.1 Các chân tín hiệu của 8086
+### 4.1.1 Các chân tín hiệu của 8086
 
 <br/>
 
@@ -82,7 +82,7 @@
 
 <br/>
 
-#### 4.1.2 Phân kênh và đệm cho các bus
+### 4.1.2 Phân kênh và đệm cho các bus
 
 - **Vì sao cần phân kênh và khuếch đại đệm?**
   - Do các bus địa chỉ và dữ liệu dùng chung chân cho nên chúng ta cần phân kênh để tách các địa chỉ và dữ liệu về đúng bus của chúng.
